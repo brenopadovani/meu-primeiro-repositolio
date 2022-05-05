@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T22:36:30.831Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="itf6b9KewenB23PLFpDM" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-05T22:54:09.182Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="mm-X9sn2uVtqpJGVVOBW" version="17.5.0" type="github">
   <diagram id="ThEkM9ORdjrjRPQTy-0T" name="Page-1">
     <mxGraphModel dx="868" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,45 +23,40 @@
           <mxGeometry y="135" width="140" height="8" as="geometry" />
         </mxCell>
         <mxCell id="_L86Ak9_L4mIosgFrrMa-13" value="&lt;b&gt;Cinema&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="80" width="210" height="242" as="geometry" />
+          <mxGeometry x="370" y="80" width="310" height="242" as="geometry" />
         </mxCell>
         <mxCell id="_L86Ak9_L4mIosgFrrMa-14" value="- nome ; String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_L86Ak9_L4mIosgFrrMa-13">
-          <mxGeometry y="55" width="210" height="20" as="geometry" />
+          <mxGeometry y="55" width="310" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_L86Ak9_L4mIosgFrrMa-15" value="- ingresso: Integer&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_L86Ak9_L4mIosgFrrMa-13">
-          <mxGeometry y="75" width="210" height="20" as="geometry" />
+          <mxGeometry y="75" width="310" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_L86Ak9_L4mIosgFrrMa-16" value="- qtdFranquias : Integer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_L86Ak9_L4mIosgFrrMa-13">
-          <mxGeometry y="95" width="210" height="20" as="geometry" />
+          <mxGeometry y="95" width="310" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_L86Ak9_L4mIosgFrrMa-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_L86Ak9_L4mIosgFrrMa-13">
-          <mxGeometry y="115" width="210" height="8" as="geometry" />
+          <mxGeometry y="115" width="310" height="8" as="geometry" />
         </mxCell>
         <mxCell id="_L86Ak9_L4mIosgFrrMa-21" value="+ adicionarFilme(filme:Filme) : void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_L86Ak9_L4mIosgFrrMa-13">
-          <mxGeometry y="123" width="210" height="17" as="geometry" />
+          <mxGeometry y="123" width="310" height="17" as="geometry" />
         </mxCell>
         <mxCell id="_L86Ak9_L4mIosgFrrMa-25" value="+ removerFilme(filme:Filme) : void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_L86Ak9_L4mIosgFrrMa-13">
-          <mxGeometry y="140" width="210" height="17" as="geometry" />
+          <mxGeometry y="140" width="310" height="17" as="geometry" />
         </mxCell>
         <mxCell id="_L86Ak9_L4mIosgFrrMa-26" value="+ comprarIngresso() : Integer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_L86Ak9_L4mIosgFrrMa-13">
-          <mxGeometry y="157" width="210" height="17" as="geometry" />
+          <mxGeometry y="157" width="310" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="_L86Ak9_L4mIosgFrrMa-27" value="+ getMaiorPremiaca() : Integer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_L86Ak9_L4mIosgFrrMa-13">
-          <mxGeometry y="174" width="210" height="17" as="geometry" />
+        <mxCell id="_L86Ak9_L4mIosgFrrMa-27" value="+ getMaiorPremiaca(premiacao: FIlme) : Integer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_L86Ak9_L4mIosgFrrMa-13">
+          <mxGeometry y="174" width="310" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="_L86Ak9_L4mIosgFrrMa-28" value="+ getMaiorDuracao() : Integer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_L86Ak9_L4mIosgFrrMa-13">
-          <mxGeometry y="191" width="210" height="17" as="geometry" />
+        <mxCell id="_L86Ak9_L4mIosgFrrMa-28" value="+ getMaiorDuracao(tempo: Filme) : Integer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_L86Ak9_L4mIosgFrrMa-13">
+          <mxGeometry y="191" width="310" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="_L86Ak9_L4mIosgFrrMa-29" value="+ getMaiorBilheteria() : Integer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_L86Ak9_L4mIosgFrrMa-13">
-          <mxGeometry y="208" width="210" height="17" as="geometry" />
+        <mxCell id="_L86Ak9_L4mIosgFrrMa-29" value="+ getMaiorBilheteria(qtdBilheteria: Filme) : Integer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_L86Ak9_L4mIosgFrrMa-13">
+          <mxGeometry y="208" width="310" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="_L86Ak9_L4mIosgFrrMa-30" value="+ getMenorBilheteria() : Integer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_L86Ak9_L4mIosgFrrMa-13">
-          <mxGeometry y="225" width="210" height="17" as="geometry" />
-        </mxCell>
-        <mxCell id="_L86Ak9_L4mIosgFrrMa-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_L86Ak9_L4mIosgFrrMa-6">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="205" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="_L86Ak9_L4mIosgFrrMa-30" value="+ getMenorBilheteria(qtdBilheteria: Filme) : Integer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_L86Ak9_L4mIosgFrrMa-13">
+          <mxGeometry y="225" width="310" height="17" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
